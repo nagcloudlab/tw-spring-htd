@@ -1,0 +1,24 @@
+
+
+
+
+application
+--------------------
+
+	layer(s)
+	
+		1. data/repository layer
+		
+			-> data persisting logic
+		
+		2. business / service layer
+		
+			-> data processing logic
+			
+		3. web layer
+		
+			-> request / response logic
+			
+		4. infra layer
+		
+			-> connection,transaction,security...			
