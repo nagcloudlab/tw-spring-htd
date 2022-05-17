@@ -1,0 +1,10 @@
+
+
+app:
+  greeting:
+    message: hello
+
+
+spring:
+  profiles:
+    active: dev,learning

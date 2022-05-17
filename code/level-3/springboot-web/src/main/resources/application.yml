@@ -1,0 +1,8 @@
+debug: false
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+
