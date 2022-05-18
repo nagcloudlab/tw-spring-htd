@@ -1,0 +1,27 @@
+
+debug: false
+
+server:
+  port: 8181
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/todos_db
+    username: root
+    password: root123
+
+
+  jpa:
+    show-sql: true
+
+
+
+#    hibernate:
+#      ddl-auto: create
+
+#
+#spring:
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://user1:userone@cluster0.socov.mongodb.net/todos_db?retryWrites=true&w=majority
