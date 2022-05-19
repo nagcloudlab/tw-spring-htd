@@ -1,0 +1,58 @@
+
+
+
+resource(s)
+
+    - user
+    - todo
+
+stepts to design REST-api
+---------------------------
+
+ 1- Resource identification in requests
+
+        /api/todos
+
+ 2- Resource manipulation through representations
+
+        application/json
+
+-----------------------------------------------
+
+operations on resource
+    => read
+        - GET /api/todos
+    => write
+        - POST /api/todos  => to create new unknown resource
+        - PUT  /api/todos  => to create/update complete known resource
+        - PATCH /api/todos => to update partial resource
+
+-----------------------------------------------
+
+
+
+Working Spring MVC
+----------------------
+
+
+  How many ways , we can map incomming-request to handler/controller methods?
+
+  - by http-path
+  - by http-method
+  - by presence/absence of request-parameters
+  - by presence/absence of request-headers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
